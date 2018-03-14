@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: public
+files:
+  - build/**/*
+extraMetadata:
+  main: build/electron.js
+appId: com.electron.electron-with-create-react-app
+win: {}
+extends: react-cra
+electronVersion: 1.8.3
